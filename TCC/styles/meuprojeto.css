@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #382a25fa;
+    font-family:'Poppins', 'Anonymous Pro', 'Source Code Pro', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', Arial, sans-serif;
+    font-optical-sizing: auto; /* ajusta automaticamente as fonte para melhor legibilidade em diferentes tamanhos*/
+    font-style: normal; 
+    margin: 5px;
+}
+
+/* NAV */
+nav {
+    background: linear-gradient(38deg,  #2e2a2e, #4b2222, #20191a, rgb(50, 13, 26), #381515);
+    color: #ffffff; /*cor do texto*/
+    /*background-image: url("/assets/caderno.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    padding: 10px 0;
+    text-align: end; /*Alinhamento do texto*/
+    font-weight: bolder;
+  }
+
+  nav ul {
+    list-style: none; /* estilo da linha é nenhum*/
+    margin-left: 25px; /*top left botton right*/
+} 
+
+
+nav ul li {
+    display:inline;
+    margin: 0 20px;
+}
+
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none; /* decoração do texto é nenhuma*/
+     letter-spacing: 2px;
+    font-size: 14px;
+    position: relative; 
+    z-index: 1;
+}
+
+
+nav ul li a:hover {
+    font-size: 18px;
+    color: #360000;
+}
